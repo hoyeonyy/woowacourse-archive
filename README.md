@@ -14,6 +14,17 @@
 
 ## ✏ 활동 기록
 
+### 👨🏻‍🏫 10분 테코톡
+
+```markdown
+'10분 테코톡'이란 우아한테크코스 과정을 진행하며 크루(수강생)들이 동료들과 학습한 내용을 공유하고 이야기하는 시간입니다.
+서로가 성장하기 위해 지식을 나누고 대화하며 생각해보는 시간으로 자기 주도적인 성장을 지향하는 우아한테크코스의 문화 중 하나입니다.
+```
+![image](https://github.com/user-attachments/assets/c2203e9f-2d03-4c34-bff9-7fadd776632d)
+
+[[10분 테코톡] 호기의 blocking VS non-blocking, sync VS async](https://youtu.be/cmBFGSrHKnM?si=p3gWIcVr25nTa_Iz)
+
+
 ### ⭐ Team Project in Level3 ~ Level4 ⭐
 
 > 모여봐요 우리들의 다락방, 모우다 🏡 <br>
@@ -128,39 +139,36 @@
         <th>미션 PR</th>
     </tr>
     <tr>
-        <td rowspan="3">방탈출 예약 관리</td>
-        <td rowspan="3">SpringBoot Application 실행하기</td>
-        <td><a href="https://github.com/woowacourse/spring-roomescape-admin/pull/1">[1-3단계] API 생성하기</a></td>
+        <td rowspan="2">방탈출 예약 관리</td>
+        <td rowspan="2">SpringBoot Application 실행하기</td>
+        <td><a href="https://github.com/woowacourse/spring-roomescape-admin/pull/58">[1-3단계] API 생성하기</a></td>
     </tr>
     <tr> 
-        <td><a href="https://github.com/woowacourse/spring-roomescape-admin/pull/167">[4-9단계] Spring Bean과 Layered Architecture</a></td>
-    </tr>
-    <tr>
-        <td><a href="https://github.com/woowacourse/spring-roomescape-admin/pull/113">[10단계] 뷰를 추가하여 재사용 가능한 코드 만들기</a></td>
+        <td><a href="https://github.com/woowacourse/spring-roomescape-admin/pull/157">[4-9단계] Spring Bean과 Layered Architecture</a></td>
     </tr>
     <tr>
         <td rowspan="2">방탈출 사용자 예약</td>
         <td rowspan="2">기능 추가에 대한 애플리케이션 발전</td>
-        <td><a href="https://github.com/woowacourse/spring-roomescape-member/pull/65">[1-3단계] 예외 처리 및 새로운 기능 추가</a></td>
+        <td><a href="https://github.com/woowacourse/spring-roomescape-member/pull/2">[1-3단계] 예외 처리 및 새로운 기능 추가</a></td>
     </tr>
     <tr>
-        <td><a href="https://github.com/woowacourse/spring-roomescape-member/pull/102">[4-6단계] 사용자 인증 인가</a></td>
+        <td><a href="https://github.com/woowacourse/spring-roomescape-member/pull/139">[4-6단계] 사용자 인증 인가</a></td>
     </tr>
      <tr>
         <td rowspan="2">방탈출 예약 대기</td>
         <td rowspan="2">JPA 사용 및 레이어 테스트</td>
-        <td><a href="https://github.com/woowacourse/spring-roomescape-waiting/pull/11">[1-2단계] JDBC에서 JPA로 전환 및 연관관계 설정</a></td>
+        <td><a href="https://github.com/woowacourse/spring-roomescape-waiting/pull/47">[1-2단계] JDBC에서 JPA로 전환 및 연관관계 설정</a></td>
     </tr>
     <tr>
-        <td><a href="https://github.com/woowacourse/spring-roomescape-waiting/pull/11">[3-4단계] 엔티티 설계와 서비스 테스트</a></td>
+        <td><a href="https://github.com/woowacourse/spring-roomescape-waiting/pull/113">[3-4단계] 엔티티 설계와 서비스 테스트</a></td>
     </tr>
     <tr>
         <td rowspan="2">방탈출 결제 및 배포</td>
         <td rowspan="2">Third-Party API 도입과 테스트</td>
-        <td><a href="https://github.com/woowacourse/spring-roomescape-payment/pull/56">[1단계] RestClient를 사용해 토스 결제 구현</a></td>
+        <td><a href="https://github.com/woowacourse/spring-roomescape-payment/pull/16">[1단계] FeignClient를 사용해 토스 결제 구현</a></td>
     </tr>
     <tr>
-        <td><a href="https://github.com/woowacourse/spring-roomescape-payment/pull/87">[2-4단계] 결제 정보 저장에 따른 ERD 설계, API 문서 자동화 및 배포</a></td>
+        <td><a href="https://github.com/woowacourse/spring-roomescape-payment/pull/89">[2-4단계] 결제 정보 저장에 따른 ERD 설계, API 문서 자동화 및 배포</a></td>
     </tr>
 </table>
 
@@ -184,81 +192,61 @@
         <th>Step</th>
         <th>기간</th>
         <th>미션 PR</th>
-        <th>회고 URL</th>
     </tr>
     <tr>
         <td rowspan="2">🚗자동차 경주</td>
         <td rowspan="2">단위 테스트</td>
         <td>Step1</td>
         <td>2024.02.13 ~ 02.15</td>
-        <td><a href="https://github.com/woowacourse/java-racingcar/pull/690">PR</a></td>
-        <td><a href="https://mingyum119.tistory.com/286">회고</a></td>
+        <td><a href="https://github.com/woowacourse/java-racingcar/pull/684">PR</a></td>
     </tr>
     <tr>
         <td>Step2</td>
         <td>2024.02.16 ~ 02.19</td>
-        <td><a href="https://github.com/woowacourse/java-racingcar/pull/810">PR</a></td>
-        <td><a href="https://mingyum119.tistory.com/286">회고</a></td>
+        <td><a href="https://github.com/woowacourse/java-racingcar/pull/753">PR</a></td>
     </tr>
     <tr>
         <td rowspan="2"> ⛑ 사다리 타기</td>
         <td rowspan="2">TDD</td>
         <td>Step1</td>
         <td>2024.02.20 ~ 02.22</td>
-        <td><a href="https://github.com/woowacourse/java-ladder/pull/277">PR</a></td>
-        <td><a href="https://mingyum119.tistory.com/289">회고</a></td>
+        <td><a href="https://github.com/woowacourse/java-ladder/pull/260">PR</a></td>
     </tr>
     <tr>
         <td>Step2</td>
         <td>2024.02.23 ~ 03.04</td>
-        <td><a href="https://github.com/woowacourse/java-ladder/pull/410">PR</a></td>
-        <td><a href="https://mingyum119.tistory.com/292">회고</a></td>
+        <td><a href="https://github.com/woowacourse/java-ladder/pull/396">PR</a></td>
     </tr>
     <tr>
         <td rowspan="2"> 🃏 블랙잭</td>
         <td rowspan="2">Clean Code</td>
         <td>Step1</td>
         <td>2024.03.05 ~ 03.08</td>
-        <td><a href="https://github.com/woowacourse/java-blackjack/pull/601">PR</a></td>
-        <td><a href="https://mingyum119.tistory.com/293">회고</a></td>
+        <td><a href="https://github.com/woowacourse/java-blackjack/pull/637">PR</a></td>
     </tr>
     <tr>
         <td>Step2</td>
         <td>2024.03.09 ~ 03.18</td>
-        <td><a href="https://github.com/woowacourse/java-blackjack/pull/744">PR</a></td>
-        <td></td>
+        <td><a href="https://github.com/woowacourse/java-blackjack/pull/743">PR</a></td>
     </tr>
     <tr>
-        <td rowspan="2">♟ 체스 미션</td>
-        <td rowspan="2">OOP, DB</td>
-        <td>Step1</td>
+        <td rowspan="3">♟ 체스 미션</td>
+        <td rowspan="3">OOP, DB</td>
+        <td>Step1,2</td>
         <td>2024.03.19 ~ 03.21</td>
-        <td><a href="https://github.com/woowacourse/java-chess/pull/665">PR</a></td>
-    <td></td>
+        <td><a href="https://github.com/woowacourse/java-chess/pull/652">PR</a></td>
     </tr>
     <tr>
-        <td>Step2</td>
+        <td>Step3</td>
         <td>2024.03.22 ~ 04.01</td>
-        <td><a href="https://github.com/woowacourse/java-chess/pull/788">PR</a></td>
-        <td></td>
+        <td><a href="https://github.com/woowacourse/java-chess/pull/758">PR</a></td>
+    </tr>
+    <tr>
+        <td>Step4</td>
+        <td>2024.03.22 ~ 04.01</td>
+        <td><a href="https://github.com/woowacourse/java-chess/pull/798">PR</a></td>
     </tr>
 </table>
-
-
-### 0️⃣ Level0
-
-우아한테크코스에 입과하기 위한 프리코스 과정입니다.
-
-[우아한테크코스 입과 과정 기록](https://github.com/Mingyum-Kim/woowacourse-archive/tree/main/level0)
-
-| 미션 이름 | 기간 | 미션 PR | 회고 URL |
-|-----------|------|--------------|----------|
-| ⚾ 숫자 야구 게임 | 2023.10.19 ~ 10.26 | [PR](https://github.com/woowacourse-precourse/java-baseball-6/pull/2634) | [회고](https://mingyum119.tistory.com/270) |
-| 🚗 자동차 경주 | 2023.10.26 ~ 11.02 | [PR](https://github.com/woowacourse-precourse/java-racingcar-6/pull/1447) | [회고](https://mingyum119.tistory.com/267) |
-| 💸로또 게임 | 2023.11.02 ~ 11.09 | [PR](https://github.com/woowacourse-precourse/java-lotto-6/pull/1941) | [회고](https://mingyum119.tistory.com/268) |
-| 🎄 크리스마스 프로모션 | 2023.11.09 ~ 11.16 | [PR](https://github.com/Mingyum-Kim/java-christmas-6-Mingyum-Kim/pull/1) | [회고](https://mingyum119.tistory.com/269) |
-| 📞 온콜 (최종 코딩테스트) | 2023.12.16 | [PR](https://github.com/Mingyum-Kim/java-oncall-6-Mingyum-Kim/pull/1) | [회고](https://mingyum119.tistory.com/274) | 
-
 
 
 ## 🫡 Soft Skill 
@@ -284,3 +272,7 @@
         <td><a href="https://github.com/hoyeonyy/woowa-writing/blob/level3/level3.md">만족스러운 결과는 무엇일까?</a></td>
     </tr>
 </table>
+
+
+### ✏️ 스터디
+- ORM에 의존하여 DB를 도외시하지 않기 위한 스터디 [Real MySQL 8.0 스터디](https://github.com/woowacourse-6th-checks-choco/RealMySql)
