@@ -24,8 +24,9 @@
 
 [[10분 테코톡] 호기의 blocking VS non-blocking, sync VS async](https://youtu.be/cmBFGSrHKnM?si=p3gWIcVr25nTa_Iz)
 
+---
 
-### ⭐ Team Project in Level3 ~ Level4 ⭐
+## ⭐ Team Project in Level3 ~ Level4 ⭐
 
 > 모여봐요 우리들의 다락방, 모우다 🏡 <br>
 > 회사나 학교 등의 단체 내에서 모임을 만들고 참여할 수 있는 커뮤니티 서비스입니다. <br>
@@ -274,5 +275,5 @@
 </table>
 
 
-### ✏️ 스터디
+## ✏️ 스터디
 - ORM에 의존하여 DB를 도외시하지 않기 위한 스터디 [Real MySQL 8.0 스터디](https://github.com/woowacourse-6th-checks-choco/RealMySql)
