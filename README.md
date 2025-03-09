@@ -26,7 +26,7 @@
 
 ---
 
-## ⭐ Team Project in Level3 ~ Level4 ⭐
+## ⭐ Team Project ⭐
 
 > 모여봐요 우리들의 다락방, 모우다 🏡 <br>
 > 회사나 학교 등의 단체 내에서 모임을 만들고 참여할 수 있는 커뮤니티 서비스입니다. <br>
@@ -34,7 +34,6 @@
 > 👉 [프로젝트 소개](https://sites.google.com/view/woowacourse-demo-6th/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/%EB%AA%A8%EC%9A%B0%EB%8B%A4?authuser=0) 
 
 
-### 4️⃣ Level3 ~ Level4
 ##### ⭐ Keyword : Feeback Service, Maintenance
 
 ```markdown
@@ -51,128 +50,6 @@
 | 3차 스프린트 | `2024-07-27` ~ `2024-08-09` | - [Logback을 사용한 애플리케이션 로깅](https://successful-jeep-771.notion.site/Logback-b69ceb05f312486bb809460afe24dac5) <br> -[Swagger를 사용한 API 문서화](https://api.mouda.site/swagger-ui/index.html) <br> -[모임 구성원 간의 채팅 기능 구현](https://successful-jeep-771.notion.site/11dbb446019881d39db6f55ab7fcec10) <br> - CloudWatch를 사용한 모니터링 대시보드 구축|
 | 2차 스프린트 | `2024-07-13` ~ `2024-07-26` | - 서비스 MVP 개발 <br> - [Github Actions를 사용한 CI/CD](https://successful-jeep-771.notion.site/Github-Actions-11dbb4460198812a927ccac7d8b4d9c0?pvs=73) <br> - [Docker를 사용한 개발 서버 배포](https://successful-jeep-771.notion.site/Docker-1deaae3dfb7b44fb9e60db369c0166ca?pvs=73) |
 | 1차 스프린트 | `2024-07-02` ~ `2024-07-12` | - 서비스 기획 <br> - [개발(코드 컨벤션 등) 문서](https://github.com/woowacourse-teams/2024-mouda/wiki/%EB%B0%B1%EC%97%94%EB%93%9C-%EC%BD%94%EB%93%9C-%EC%BB%A8%EB%B2%A4%EC%85%98) <br> -[기술 스택 선택 및 이유](https://github.com/woowacourse-teams/2024-mouda/wiki/%EB%B0%B1%EC%97%94%EB%93%9C-%EA%B8%B0%EC%88%A0-%EC%8A%A4%ED%83%9D) <br> -[Git 컨벤션](https://github.com/woowacourse-teams/2024-mouda/wiki/Git-%EC%BB%A8%EB%B2%A4%EC%85%98)|
-
-### 4️⃣ 레벨 4 - 프레임워크 라이브러리 깊게 이해하기 (2024.09.03 ~ 2024.11.01)  
-##### ⭐ Keyword : Tomcat, MVC, JDBC, DB Replication, Cache
-
-- 프레임워크와 라이브러리를 직접 코드로 구현해보며 기술의 상세를 탐구
-- Tomcat, Spring MVC 그리고 Jdbc를 직접 구현
-- DB 복제와 캐시 등 서비스 고가용성을 위한 기술을 학습, 복제 지연문제와 캐시 정책 등 수반되어야 하는 고려지점을 탐구
-
-<table>
-    <tr>
-        <th>미션 이름</th>
-        <th>학습 키워드</th>
-        <th>미션 PR</th>
-    </tr>
-    <tr>
-        <td rowspan="4">Tomcat 구현하기</td>
-        <td rowspan="4">WAS, HTTP, Cookie & Session, Thread</td>
-        <td><a href="https://github.com/woowacourse/java-http/pull/527">[1단계] HTTP 요청과 응답을 처리하는 WAS 구현</a></td>
-    </tr>
-    <tr> 
-        <td><a href="https://github.com/woowacourse/java-http/pull/624">[2단계] 비지니스 코드 추가하기 </a></td>
-    </tr>
-    <tr> 
-        <td><a href="https://github.com/woowacourse/java-http/pull/663">[3단계] WAS / HTTP / 비즈니스 코드 분리 </a></td>
-    </tr>
-    <tr>
-        <td><a href="https://github.com/woowacourse/java-http/pull/728">[4단계] 스레드 풀 설정과 스레드 안정성</a></td>
-    </tr>
-    <tr>
-        <td rowspan="3">MVC 프레임워크 구현하기</td>
-        <td rowspan="3">MVC, Reflection, IoC와 DI, Servlet, Servlet Container</td>
-        <td><a href="https://github.com/woowacourse/java-mvc/pull/707">[1단계] MVC 프레임워크 구현하기</a></td>
-    </tr>
-    <tr>
-        <td><a href="https://github.com/woowacourse/java-mvc/pull/764">[2단계] 어노테이션 기반 컨트롤러 매핑</a></td>
-    </tr>
-    <tr>
-        <td><a href="https://github.com/woowacourse/java-mvc/pull/800">[3단계] 컨트롤러에서 객체 반환 시 JSON으로 응답하기 위한 JsonView </a></td>
-    </tr>
-     <tr>
-        <td rowspan="4">JDBC 라이브러리 구현하기</td>
-        <td rowspan="4">DB 커넥션 풀, Transaction, AOP</td>
-        <td><a href="https://github.com/woowacourse/java-jdbc/pull/676">[1단계] JdbcTemplate 구현 </a></td>
-    </tr>
-    <tr>
-        <td><a href="https://github.com/woowacourse/java-jdbc/pull/774">[2단계] JdbcTemplate 코드 리팩토링 </a></td>
-    </tr>
-    <tr>
-        <td><a href="https://github.com/woowacourse/java-jdbc/pull/818">[3단계] 트랜잭션 커밋 롤백 구현</a></td>
-    </tr>
-    <tr>
-        <td><a href="https://github.com/woowacourse/java-jdbc/pull/904">[4단계] 트랜잭션 동기화로 트랜잭션 코드를 비즈니스 로직과 분리 </a></td>
-    </tr>
-    <tr>
-        <td rowspan="1">인프라 아키텍처 설계</td>
-        <td rowspan="1">요구사항에 맞추어 쇼핑몰 인프라 아키텍처 설계</td>
-        <td><a href="https://github.com/woowacourse/infra-architecture-4/discussions/6#discussioncomment-10953924">요구사항과 아키텍처 설계</a></td>
-    </tr>
-    <tr>
-        <td rowspan="2">DB 복제와 캐시</td>
-        <td rowspan="2">복제 지연, 캐시, 잠금</td>
-        <td><a href="https://github.com/woowacourse/java-coupon/pull/83"> [1단계] 데이터베이스 분리로 인한 복제 지연 해결</a></td>
-    </tr>
-    <tr>
-        <td><a href="https://github.com/woowacourse/java-coupon/pull/145">[2단계] 캐시를 사용한 쿠폰 조회 성능 개선</a></td>
-    </tr>
-</table>
-
-
-
-### 2️⃣ Level2
-##### ⭐ Keyword : Spring Boot, JPA, HTTP, Authorization, Third-Party API, Infra
-
-```markdown
-웹 애플리케이션을 개발하며 웹 백엔드 개발자의 기본 역량을 쌓는다.
-주어진 요구사항에 맞춰 기능을 추가/변경하며 애플리케이션을 발전시켜 나간다.
-클라우드 환경에 배포를 하여 사용자에게 서비스할 수 있는 최소한의 상태로 만든다.
-웹 애플리케이션 구현을 위해 필요한 새로운 기술을 학습한다.
-이 과정에서 효과적으로 새로운 기술을 익힐 수 있는 본인만의 학습 방법을 찾는 시도를 한다.
-웹 프로그래밍 과정에서도 읽기 좋은 코드, 유지보수하기 좋은 코드를 작성하는 경험을 한다.
-```
-
-<table>
-    <tr>
-        <th>미션 이름</th>
-        <th>학습 키워드</th>
-        <th>미션 PR</th>
-    </tr>
-    <tr>
-        <td rowspan="2">방탈출 예약 관리</td>
-        <td rowspan="2">SpringBoot Application 실행하기</td>
-        <td><a href="https://github.com/woowacourse/spring-roomescape-admin/pull/58">[1-3단계] API 생성하기</a></td>
-    </tr>
-    <tr> 
-        <td><a href="https://github.com/woowacourse/spring-roomescape-admin/pull/157">[4-9단계] Spring Bean과 Layered Architecture</a></td>
-    </tr>
-    <tr>
-        <td rowspan="2">방탈출 사용자 예약</td>
-        <td rowspan="2">기능 추가에 대한 애플리케이션 발전</td>
-        <td><a href="https://github.com/woowacourse/spring-roomescape-member/pull/2">[1-3단계] 예외 처리 및 새로운 기능 추가</a></td>
-    </tr>
-    <tr>
-        <td><a href="https://github.com/woowacourse/spring-roomescape-member/pull/139">[4-6단계] 사용자 인증 인가</a></td>
-    </tr>
-     <tr>
-        <td rowspan="2">방탈출 예약 대기</td>
-        <td rowspan="2">JPA 사용 및 레이어 테스트</td>
-        <td><a href="https://github.com/woowacourse/spring-roomescape-waiting/pull/47">[1-2단계] JDBC에서 JPA로 전환 및 연관관계 설정</a></td>
-    </tr>
-    <tr>
-        <td><a href="https://github.com/woowacourse/spring-roomescape-waiting/pull/113">[3-4단계] 엔티티 설계와 서비스 테스트</a></td>
-    </tr>
-    <tr>
-        <td rowspan="2">방탈출 결제 및 배포</td>
-        <td rowspan="2">Third-Party API 도입과 테스트</td>
-        <td><a href="https://github.com/woowacourse/spring-roomescape-payment/pull/16">[1단계] FeignClient를 사용해 토스 결제 구현</a></td>
-    </tr>
-    <tr>
-        <td><a href="https://github.com/woowacourse/spring-roomescape-payment/pull/89">[2-4단계] 결제 정보 저장에 따른 ERD 설계, API 문서 자동화 및 배포</a></td>
-    </tr>
-</table>
-
 
 
 ### 1️⃣ Level1 
@@ -248,6 +125,135 @@
         <td><a href="https://github.com/woowacourse/java-chess/pull/798">PR</a></td>
     </tr>
 </table>
+
+
+
+### 2️⃣ Level2
+##### ⭐ Keyword : Spring Boot, JPA, HTTP, Authorization, Third-Party API, Infra
+
+```markdown
+웹 애플리케이션을 개발하며 웹 백엔드 개발자의 기본 역량을 쌓는다.
+주어진 요구사항에 맞춰 기능을 추가/변경하며 애플리케이션을 발전시켜 나간다.
+클라우드 환경에 배포를 하여 사용자에게 서비스할 수 있는 최소한의 상태로 만든다.
+웹 애플리케이션 구현을 위해 필요한 새로운 기술을 학습한다.
+이 과정에서 효과적으로 새로운 기술을 익힐 수 있는 본인만의 학습 방법을 찾는 시도를 한다.
+웹 프로그래밍 과정에서도 읽기 좋은 코드, 유지보수하기 좋은 코드를 작성하는 경험을 한다.
+```
+
+<table>
+    <tr>
+        <th>미션 이름</th>
+        <th>학습 키워드</th>
+        <th>미션 PR</th>
+    </tr>
+    <tr>
+        <td rowspan="2">방탈출 예약 관리</td>
+        <td rowspan="2">SpringBoot Application 실행하기</td>
+        <td><a href="https://github.com/woowacourse/spring-roomescape-admin/pull/58">[1-3단계] API 생성하기</a></td>
+    </tr>
+    <tr> 
+        <td><a href="https://github.com/woowacourse/spring-roomescape-admin/pull/157">[4-9단계] Spring Bean과 Layered Architecture</a></td>
+    </tr>
+    <tr>
+        <td rowspan="2">방탈출 사용자 예약</td>
+        <td rowspan="2">기능 추가에 대한 애플리케이션 발전</td>
+        <td><a href="https://github.com/woowacourse/spring-roomescape-member/pull/2">[1-3단계] 예외 처리 및 새로운 기능 추가</a></td>
+    </tr>
+    <tr>
+        <td><a href="https://github.com/woowacourse/spring-roomescape-member/pull/139">[4-6단계] 사용자 인증 인가</a></td>
+    </tr>
+     <tr>
+        <td rowspan="2">방탈출 예약 대기</td>
+        <td rowspan="2">JPA 사용 및 레이어 테스트</td>
+        <td><a href="https://github.com/woowacourse/spring-roomescape-waiting/pull/47">[1-2단계] JDBC에서 JPA로 전환 및 연관관계 설정</a></td>
+    </tr>
+    <tr>
+        <td><a href="https://github.com/woowacourse/spring-roomescape-waiting/pull/113">[3-4단계] 엔티티 설계와 서비스 테스트</a></td>
+    </tr>
+    <tr>
+        <td rowspan="2">방탈출 결제 및 배포</td>
+        <td rowspan="2">Third-Party API 도입과 테스트</td>
+        <td><a href="https://github.com/woowacourse/spring-roomescape-payment/pull/16">[1단계] FeignClient를 사용해 토스 결제 구현</a></td>
+    </tr>
+    <tr>
+        <td><a href="https://github.com/woowacourse/spring-roomescape-payment/pull/89">[2-4단계] 결제 정보 저장에 따른 ERD 설계, API 문서 자동화 및 배포</a></td>
+    </tr>
+</table>
+
+
+
+### 4️⃣ 레벨 4 - 프레임워크 라이브러리 깊게 이해하기 (2024.09.03 ~ 2024.11.01)  
+##### ⭐ Keyword : Tomcat, MVC, JDBC, DB Replication, Cache
+
+- 프레임워크와 라이브러리를 직접 코드로 구현해보며 기술의 상세를 탐구
+- Tomcat, Spring MVC 그리고 Jdbc를 직접 구현
+- DB 복제와 캐시 등 서비스 고가용성을 위한 기술을 학습, 복제 지연문제와 캐시 정책 등 수반되어야 하는 고려지점을 탐구
+
+<table>
+    <tr>
+        <th>미션 이름</th>
+        <th>학습 키워드</th>
+        <th>미션 PR</th>
+    </tr>
+    <tr>
+        <td rowspan="4">Tomcat 구현하기</td>
+        <td rowspan="4">WAS, HTTP, Cookie & Session, Thread</td>
+        <td><a href="https://github.com/woowacourse/java-http/pull/527">[1단계] HTTP 요청과 응답을 처리하는 WAS 구현</a></td>
+    </tr>
+    <tr> 
+        <td><a href="https://github.com/woowacourse/java-http/pull/624">[2단계] 비지니스 코드 추가하기 </a></td>
+    </tr>
+    <tr> 
+        <td><a href="https://github.com/woowacourse/java-http/pull/663">[3단계] WAS / HTTP / 비즈니스 코드 분리 </a></td>
+    </tr>
+    <tr>
+        <td><a href="https://github.com/woowacourse/java-http/pull/728">[4단계] 스레드 풀 설정과 스레드 안정성</a></td>
+    </tr>
+    <tr>
+        <td rowspan="3">MVC 프레임워크 구현하기</td>
+        <td rowspan="3">MVC, Reflection, IoC와 DI, Servlet, Servlet Container</td>
+        <td><a href="https://github.com/woowacourse/java-mvc/pull/707">[1단계] MVC 프레임워크 구현하기</a></td>
+    </tr>
+    <tr>
+        <td><a href="https://github.com/woowacourse/java-mvc/pull/764">[2단계] 어노테이션 기반 컨트롤러 매핑</a></td>
+    </tr>
+    <tr>
+        <td><a href="https://github.com/woowacourse/java-mvc/pull/800">[3단계] 컨트롤러에서 객체 반환 시 JSON으로 응답하기 위한 JsonView </a></td>
+    </tr>
+     <tr>
+        <td rowspan="4">JDBC 라이브러리 구현하기</td>
+        <td rowspan="4">DB 커넥션 풀, Transaction, AOP</td>
+        <td><a href="https://github.com/woowacourse/java-jdbc/pull/676">[1단계] JdbcTemplate 구현 </a></td>
+    </tr>
+    <tr>
+        <td><a href="https://github.com/woowacourse/java-jdbc/pull/774">[2단계] JdbcTemplate 코드 리팩토링 </a></td>
+    </tr>
+    <tr>
+        <td><a href="https://github.com/woowacourse/java-jdbc/pull/818">[3단계] 트랜잭션 커밋 롤백 구현</a></td>
+    </tr>
+    <tr>
+        <td><a href="https://github.com/woowacourse/java-jdbc/pull/904">[4단계] 트랜잭션 동기화로 트랜잭션 코드를 비즈니스 로직과 분리 </a></td>
+    </tr>
+    <tr>
+        <td rowspan="1">인프라 아키텍처 설계</td>
+        <td rowspan="1">요구사항에 맞추어 쇼핑몰 인프라 아키텍처 설계</td>
+        <td><a href="https://github.com/woowacourse/infra-architecture-4/discussions/6#discussioncomment-10953924">요구사항과 아키텍처 설계</a></td>
+    </tr>
+    <tr>
+        <td rowspan="2">DB 복제와 캐시</td>
+        <td rowspan="2">복제 지연, 캐시, 잠금</td>
+        <td><a href="https://github.com/woowacourse/java-coupon/pull/83"> [1단계] 데이터베이스 분리로 인한 복제 지연 해결</a></td>
+    </tr>
+    <tr>
+        <td><a href="https://github.com/woowacourse/java-coupon/pull/145">[2단계] 캐시를 사용한 쿠폰 조회 성능 개선</a></td>
+    </tr>
+</table>
+
+
+
+
+
+
 
 
 ## 🫡 Soft Skill 
